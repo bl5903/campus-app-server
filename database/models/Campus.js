@@ -10,6 +10,17 @@ const Campus = db.define("campus", {
 
   description: {
     type: Sequelize.STRING,
+  },
+
+  imageUrl:{
+    type: Sequelize.STRING,
+    defaultvalue:"https://media.glassdoor.com/l/06/4a/1a/08/campus.jpg",
+    validate:{isURL: true}
+  },
+
+  address:{
+    type: Sequelize.STRING,
+    notNull: true
   }
 
 });
