@@ -37,13 +37,6 @@ const seedDB = async () => {
 	});
 
 	const dummy_student = await Student.create({
-		firstname: "Joe",
-    lastname: "Shmo",
-		email:"soejhmo99@gmail.com",
-		gpa:1.25
-	});
-
-	const dummy_student2 = await Student.create({
 			firstname: "Jaelen",
 			lastname: "Jones",
 			email: "triplejragereader@aol.com",
@@ -51,7 +44,6 @@ const seedDB = async () => {
 	});
 
 		await dummy_student.setCampus(dummy_campus);
-		await dummy_student2.setCampus(dummy_campus2);
 
 }
 
