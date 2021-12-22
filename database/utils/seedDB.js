@@ -40,7 +40,8 @@ const seedDB = async () => {
 			firstname: "Jaelen",
 			lastname: "Jones",
 			email: "triplejragereader@aol.com",
-			gpa: 2.47
+			gpa: 2.47,
+			imageUrl:"https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/46803968_1968280876600227_8932775425780744192_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=bdTqCRQ6H9gAX-EtlJO&_nc_ht=scontent-lga3-2.xx&oh=03_AVJqmPKFGq6b-ZBn6kYXm5wLQhC6-gOlzKjA5Rppb2kCrg&oe=61E9303F"
 	});
 
 		await dummy_student.setCampus(dummy_campus);
